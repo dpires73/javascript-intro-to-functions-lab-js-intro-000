@@ -17,8 +17,8 @@ function sayHiToGrandma(string){
 
   } else if (string.toUpperCase() === string) {
   return "YES INDEED!";  //  block of code to be executed if the condition1 is false and condition2 is true
-  } else {
-    //  block of code to be executed if the condition1 is false and condition2 is false
+} else (string === "I love you, Grandma")){
+  return  "I love you, too.";  //  block of code to be executed if the condition1 is false and condition2 is false
   }
 
 /*
